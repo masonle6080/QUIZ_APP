@@ -6,7 +6,22 @@ from datetime import date
 import tkinter as tk
 from tkinter import ttk
 
-    
+def refreshTodayTopics(todayTopicsFrame):
+
+    # delete formatting of all currently displayed
+    for widget in todayTopicsFrame.winfo_children():
+        widget.destroy()
+
+    # display all new ones
+    if os.path.getsize('data.json') != 0:
+        with open('data.json') as f:
+            data = json.load(f)
+            for object in data:
+                labelText = F"{object['topic']}"
+                topic = tk.Label(todayTopicsFrame, text=labelText, width=100)
+                topic.pack(pady=20)
+                print('hi')
+
 
 # adds to file of topics
 def addTopic(entry, todayTopicsFrame):
