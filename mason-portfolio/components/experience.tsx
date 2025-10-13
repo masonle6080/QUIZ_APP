@@ -1,14 +1,7 @@
 import { Card } from "@/components/ui/card"
 
 const experiences = [
-  {
-    period: "2024 — Present",
-    title: "Computer Science Student",
-    company: "UC Santa Barbara",
-    description:
-      "Pursuing a Bachelor's degree in Computer Science, focusing on software development, algorithms, and creative applications of technology.",
-    tags: ["Computer Science", "Software Development", "Algorithms"],
-  },
+  
   {
     period: "Mar 2024 — Jun 2024",
     title: "Cashier/Front of House",

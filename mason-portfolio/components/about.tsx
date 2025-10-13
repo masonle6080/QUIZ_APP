@@ -14,35 +14,33 @@ export function About() {
         <div className="lg:col-span-2 space-y-8">
           <div>
             <p className="text-lg leading-relaxed text-pretty">
-              I'm a Computer Science student at UC Santa Barbara with a passion for creative technology and digital
-              storytelling. My interests span across web development, photography, filmmaking, and 3D modeling, allowing
-              me to approach problems from both technical and creative perspectives.
+              I'm a Computer Science student at the University of California, Santa Barbara. I am interested in Software Engineering and business. 
             </p>
           </div>
 
           <div>
             <p className="text-lg leading-relaxed text-pretty">
-              Through my experiences at the Academy of Integrated Humanities and New Media, I've developed skills in
-              documentary creation, equipment management, and community building. I enjoy teaching others about camera
-              work, editing, and storytelling techniques.
+              I love reading, photography, exercising, and cooking with friends!
             </p>
           </div>
 
           <div>
             <p className="text-lg leading-relaxed text-pretty">
               Currently, I'm eager to expand my technical skills and gain hands-on experience in different areas of
-              computer science while continuing to explore the creative applications of technology.
+              Computer Science while continuing to explore the creative applications of technology.
             </p>
           </div>
 
-          <div className="pt-8">
-            <p className="text-muted-foreground">
-              You can reach me at{" "}
-              <a href="mailto:masonle@ucsb.edu" className="text-accent hover:underline font-medium">
-                masonle@ucsb.edu
-              </a>
-            </p>
+          <div className="pt-3">
+            <a
+              href="/More"
+              className="inline-flex items-center text-accent hover:underline font-medium transition-colors"
+            >
+              Learn More →
+            </a>
           </div>
+
+
         </div>
       </div>
     </section>
